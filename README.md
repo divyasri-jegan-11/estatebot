@@ -6,7 +6,7 @@ This project is an AI-powered real estate assistant that helps users find proper
 ---
 ### Chatbot UI
 
-![Chatbot UI](.[chatbotUI.jpeg](https://github.com/divyasri-jegan-11/estatebot/blob/main/chatbotUI.jpeg))
+![Chatbot UI](.https://github.com/divyasri-jegan-11/estatebot/blob/main/chatbotUI.jpeg)
 
 ## Features
 
