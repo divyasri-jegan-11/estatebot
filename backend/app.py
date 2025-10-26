@@ -10,7 +10,7 @@ except ImportError:
     OpenAI = None
 
 app = Flask(__name__)
-CORS(app)
+CORS(app,origins=["https://estatebot.netlify.app"])
 
 DB_FILE = os.path.join(os.path.dirname(__file__), "leads.db")
 CSV_FILE = os.path.join(os.path.dirname(__file__), "magicbricks_cleaned.csv")

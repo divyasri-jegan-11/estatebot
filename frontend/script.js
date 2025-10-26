@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 
 const API = "https://estatebot-e34h.onrender.com";
+=======
+// Set your Render backend URL
+const API = "https://estatebot-e34h.onrender.com";
+
+>>>>>>> ebec303 (Added)
 
 
 const chatBody = document.getElementById("chatBody");
