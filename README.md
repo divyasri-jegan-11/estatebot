@@ -4,6 +4,9 @@
 This project is an AI-powered real estate assistant that helps users find properties based on their preferences. It combines a Flask backend for handling property data and OpenAI API queries, with a modern frontend for user interaction.
 
 ---
+### Chatbot UI
+
+![Chatbot UI](./frontend/chatbot_ui.png)
 
 ## Features
 
@@ -85,15 +88,12 @@ python app.py
 
 Access API at: `http://localhost:5000/chat`
 
-For deployment on Render:
+4. For deployment on Render:
+    - Root Directory:` backend`
+    - Build Command: `pip install -r requirements.txt`
+    - Start Command: `gunicorn backend.app:app`
 
-Root Directory:` backend`
-
-Build Command: `pip install -r requirements.txt`
-
-Start Command: `gunicorn backend.app:app`
-
-Frontend Setup (Netlify)
+## Frontend Setup (Netlify)
 
 1. Open `frontend/script.js` and set the API endpoint to your Render backend URL:
 
