@@ -6,7 +6,7 @@ This project is an AI-powered real estate assistant that helps users find proper
 ---
 ### Chatbot UI
 
-![Chatbot UI](.chatbotui.jpeg)
+![Chatbot UI](.chatbotUI.jpeg)
 
 ## Features
 
