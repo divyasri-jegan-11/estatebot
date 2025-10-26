@@ -1,4 +1,4 @@
-const API = "http://localhost:5000";
+const API =  "https://estatebot-uaak.onrender.com";
 
 const chatBody = document.getElementById("chatBody");
 const userInput = document.getElementById("userInput");
